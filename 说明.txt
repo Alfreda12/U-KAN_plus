@@ -1,0 +1,3 @@
+train：python train.py --arch UKAN_plus --dataset glas --input_w 256 --input_h 256 --name glas_UKAN_plus  --data_dir ./inputs
+weight：U-KAN_plus\outputs\glas_UKAN_plus\model.pth
+val：python val.py --name glas_UKAN_plus --output_dir outputs
